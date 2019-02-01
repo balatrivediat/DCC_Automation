@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cooper_testng]">
+  <listeners>
+    <listener class-name="cooperProjectResources.CooperITestListener"/>
+  </listeners>
+  <test name="CooperTest(failed)">
+    <classes>
+      <class name="cooperTestScenarios.CooperNewAccRegTestCasesClass">
+        <methods>
+          <include name="finalizeTest"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperNewAccRegTestCasesClass -->
+      <class name="cooperTestScenarios.CooperLoginScreenTestCasesClass">
+        <methods>
+          <include name="finalizeTest"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperLoginScreenTestCasesClass -->
+      <class name="cooperTestScenarios.CooperForgotPasswordTestCasesClass">
+        <methods>
+          <include name="finalizeTest"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperForgotPasswordTestCasesClass -->
+      <class name="cooperTestScenarios.CooperHACCPPageTestCasesClass">
+        <methods>
+          <include name="finalizeTest"/>
+          <include name="fnValHACCPUsersTableSitenameTblHdr" invocation-numbers="0"/>
+          <include name="fnValHACCPMenusMenusActionsTblHdr" invocation-numbers="0"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperHACCPPageTestCasesClass -->
+      <class name="cooperTestScenarios.CooperNotifeyePageTestCasesClass">
+        <methods>
+          <include name="finalizeTest"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperNotifeyePageTestCasesClass -->
+      <class name="cooperTestScenarios.CooperHomePageTestCasesClass">
+        <methods>
+          <include name="fnValidateLocSumListViewPage" invocation-numbers="0"/>
+          <include name="fnValidateLocSumMapViewLink" invocation-numbers="0"/>
+          <include name="finalizeTest"/>
+          <include name="fnLogoutLinkTest" invocation-numbers="0"/>
+          <include name="openDriver"/>
+          <include name="fnDashboardPageTest" invocation-numbers="0"/>
+          <include name="fnValidateLocSummaryAlertsText" invocation-numbers="0"/>
+          <include name="fnMyProfileLinkTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- cooperTestScenarios.CooperHomePageTestCasesClass -->
+    </classes>
+  </test> <!-- CooperTest(failed) -->
+</suite> <!-- Failed suite [Cooper_testng] -->

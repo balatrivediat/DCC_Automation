@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cooper_testng" duration-ms="20936" started-at="2019-01-18T02:59:17Z" finished-at="2019-01-18T02:59:38Z">
+    <groups>
+    </groups>
+    <test name="CooperTest" duration-ms="20936" started-at="2019-01-18T02:59:17Z" finished-at="2019-01-18T02:59:38Z">
+      <class name="cooperTestScenarios.CooperLoginScreenTestCasesClass">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:cooperTestScenarios.CooperLoginScreenTestCasesClass@4411d970]" name="openDriver" is-config="true" duration-ms="14802" started-at="2019-01-17T18:59:18Z" finished-at="2019-01-17T18:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="fnValidateLoginScreenTest(java.lang.reflect.Method)[pri:0, instance:cooperTestScenarios.CooperLoginScreenTestCasesClass@4411d970]" name="fnValidateLoginScreenTest" duration-ms="2467" started-at="2019-01-17T18:59:33Z" description="DCC Login screen display validation" finished-at="2019-01-17T18:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cooperTestScenarios.CooperLoginScreenTestCasesClass.fnValidateLoginScreenTest(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnValidateLoginScreenTest -->
+        <test-method status="PASS" signature="finalizeTest()[pri:0, instance:cooperTestScenarios.CooperLoginScreenTestCasesClass@4411d970]" name="finalizeTest" is-config="true" duration-ms="2862" started-at="2019-01-17T18:59:36Z" finished-at="2019-01-17T18:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTest -->
+      </class> <!-- cooperTestScenarios.CooperLoginScreenTestCasesClass -->
+    </test> <!-- CooperTest -->
+  </suite> <!-- Cooper_testng -->
+</testng-results>

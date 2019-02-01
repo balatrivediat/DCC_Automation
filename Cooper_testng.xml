@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cooper_testng" >
+<listeners>
+<listener class-name="cooperProjectResources.CooperITestListener"></listener>
+</listeners>
+  <test thread-count="5" name="CooperTest">
+    <classes>
+      <class name="cooperTestScenarios.CooperLoginScreenTestCasesClass">
+      <methods>
+  <include name="fnValidateLoginScreenTest"/>
+    </methods>
+    </class>
+    </classes>
+  </test>
+</suite>
